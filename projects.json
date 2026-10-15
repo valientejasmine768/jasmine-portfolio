@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Grade Average Calculator",
+        "description": "A practice project idea for calculating a student's average grade using entered scores.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "status": "PRACTICE IDEA"
+    },
+    {
+        "title": "Student Task Checklist",
+        "description": "A practice project idea for organizing school activities and marking tasks as completed.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "status": "PRACTICE IDEA"
+    }
+]

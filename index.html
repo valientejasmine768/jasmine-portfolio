@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jasmine Valiente's personal student portfolio">
+    <title>Jasmine Valiente | IT Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <a href="#home" class="logo">J<span>V.</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+            ☾
+        </button>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <p class="eyebrow">HELLO, WORLD! I'M</p>
+                <h1>Jasmine <span>Valiente</span></h1>
+                <h2>IT Student <span class="accent">|</span> Future IT Professional</h2>
+
+                <p class="hero-description">
+                    A second-year Bachelor of Science in Information Technology
+                    student passionate about technology, web design, and learning
+                    new skills to create useful digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Explore My Work ↗</a>
+                    <a href="#contact" class="btn outline-btn">Let's Connect</a>
+                </div>
+
+                <div class="hero-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Always Learning</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="glow"></div>
+                <div class="photo-frame">
+                    <img
+                        src="images/profile.jpg"
+                        alt="Jasmine Valiente"
+                        class="profile-photo"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                    >
+                    <div class="photo-placeholder">JV</div>
+                </div>
+                <div class="floating-card">
+                    <span class="status-dot"></span>
+                    <div>
+                        <strong>Currently Learning</strong>
+                        <p>Building my IT journey</p>
+                    </div>
+                </div>
+                <div class="decor decor-one">{"}"}</div>
+                <div class="decor decor-two">&lt;/&gt;</div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p>A little introduction about who I am and what I want to achieve.</p>
+            </div>
+
+            <div class="about-grid">
+                <article class="glass-card about-card">
+                    <span class="card-icon">✦</span>
+                    <h3>Who I Am</h3>
+                    <p>
+                        I am Jasmine Valiente, a second-year BSIT student at
+                        Nueva Vizcaya State University – Bambang Campus.
+                        I am interested in technology and enjoy learning how
+                        websites and digital tools work.
+                    </p>
+                    <p>
+                        I believe that every new skill and every mistake
+                        can help me improve as a student and future IT professional.
+                    </p>
+                </article>
+
+                <article class="glass-card goal-card">
+                    <span class="card-icon">◎</span>
+                    <h3>My Career Goal</h3>
+                    <p>
+                        My goal is to become a skilled IT professional who can
+                        build useful, user-friendly, and reliable digital solutions.
+                        I want to keep improving my programming skills and gain
+                        real-world experience.
+                    </p>
+                    <div class="goal-line">
+                        <span>Learning</span>
+                        <span>Building</span>
+                        <span>Growing</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" class="section alternate-section">
+            <div class="section-heading">
+                <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+                <h2>My <span>Education</span></h2>
+                <p>Every step has helped me grow and prepare for the future.</p>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-card timeline-card">
+                        <span class="timeline-number">01</span>
+                        <p class="timeline-label">ELEMENTARY</p>
+                        <h3>San Antonio South Elementary School</h3>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-card timeline-card">
+                        <span class="timeline-number">02</span>
+                        <p class="timeline-label">JUNIOR HIGH SCHOOL</p>
+                        <h3>Lamo National High School</h3>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-card timeline-card">
+                        <span class="timeline-number">03</span>
+                        <p class="timeline-label">SENIOR HIGH SCHOOL</p>
+                        <h3>Lamo National High School</h3>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-card timeline-card current">
+                        <span class="timeline-number">04</span>
+                        <p class="timeline-label">COLLEGE · CURRENT</p>
+                        <h3>Nueva Vizcaya State University</h3>
+                        <p>Bachelor of Science in Information Technology</p>
+                        <span class="year-badge">2nd Year College</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'M LEARNING</p>
+                <h2>My <span>Skills</span></h2>
+                <p>Skills I am developing through my studies and practice.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="glass-card skill-card">
+                    <div class="skill-icon">&lt;/&gt;</div>
+                    <h3>Web Development</h3>
+                    <div class="skill-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript Basics</span>
+                    </div>
+                </article>
+
+                <article class="glass-card skill-card">
+                    <div class="skill-icon">{ }</div>
+                    <h3>Tools & Technology</h3>
+                    <div class="skill-list">
+                        <span>VS Code</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>JSON Basics</span>
+                    </div>
+                </article>
+
+                <article class="glass-card skill-card">
+                    <div class="skill-icon">✧</div>
+                    <h3>Personal Skills</h3>
+                    <div class="skill-list">
+                        <span>Problem Solving</span>
+                        <span>Communication</span>
+                        <span>Time Management</span>
+                        <span>Willingness to Learn</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section alternate-section">
+            <div class="section-heading">
+                <p class="eyebrow">MY WORK & PRACTICE</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p>Practice project ideas that I can build and improve as I learn.</p>
+            </div>
+
+            <div id="projectList" class="projects-grid">
+                <article class="glass-card project-card">
+                    <span class="project-label">PRACTICE IDEA</span>
+                    <h3>Grade Average Calculator</h3>
+                    <p>
+                        A simple tool to enter grades and calculate the average
+                        using JavaScript.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="glass-card project-card">
+                    <span class="project-label">PRACTICE IDEA</span>
+                    <h3>Student Task Checklist</h3>
+                    <p>
+                        A checklist for organizing school tasks and tracking
+                        completed activities.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </article>
+            </div>
+
+            <p class="projects-note">
+                These are practice ideas, not completed projects.
+            </p>
+
+            <div class="center-button">
+                <a href="https://github.com/valientejasmine768"
+                   target="_blank" rel="noopener noreferrer"
+                   class="btn outline-btn">
+                    Visit My GitHub ↗
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+                <p>Feel free to reach out for school projects and opportunities.</p>
+            </div>
+
+            <div class="contact-grid">
+                <article class="glass-card contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>
+                        I am always open to learning, collaborating, and
+                        connecting with people in the IT community.
+                    </p>
+
+                    <div class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        <div>
+                            <small>Email</small>
+                            <a href="mailto:jxzminevaliente2907@gmail.com">
+                                jxzminevaliente2907@gmail.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="contact-icon">⌘</span>
+                        <div>
+                            <small>GitHub</small>
+                            <a href="https://github.com/valientejasmine768"
+                               target="_blank" rel="noopener noreferrer">
+                                github.com/valientejasmine768
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <form class="glass-card contact-form" id="contactForm">
+                    <h3>Send a Message</h3>
+
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name"
+                           placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="Enter your email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="4"
+                              placeholder="Write your message..." required></textarea>
+
+                    <button type="submit" class="btn primary-btn">
+                        Prepare Email ↗
+                    </button>
+                    <p class="form-note">
+                        This opens your email app to send the message.
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">J<span>V.</span></a>
+        <p>Designed and built by Jasmine Valiente.</p>
+        <a href="#home" class="back-top">Back to top ↑</a>
+        <small>© <span id="currentYear"></span> Jasmine Valiente</small>
+    </footer>
+</body>
+</html>
